@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-	var header = document.querySelector("header");
+	const header = document.querySelector("header");
 
-	var backgrounds = new Array(
+	const backgrounds = new Array(
 		"url(../img/header/hero-drone1.jpg)",
 		"url(../img/header/hero-drone2.jpg)",
 		"url(../img/header/hero-drone3.jpg)"
 	);
 
-	var current = 0;
+	let current = 0;
 
 	function nextBackground() {
 		current++;
