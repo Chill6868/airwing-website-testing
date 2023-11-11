@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	function nextBackground() {
 		current++;
 		current = current % backgrounds.length;
-		header.css("background-image", backgrounds[current]);
+		header.style.backgroundImage = backgrounds[current];
 	}
 	setInterval(nextBackground, 6000);
 
-	header.css("background-image", backgrounds[0]);
+	header.style.backgroundImage = backgrounds[0];
 });
