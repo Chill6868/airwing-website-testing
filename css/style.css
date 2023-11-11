@@ -71,8 +71,8 @@ section {
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 1px;
-  background: rgb(194, 178, 98);
-  background: linear-gradient(to right, #f8f9fa 0%, rgb(194, 178, 98) 100%);
+  background: #c2b262;
+  background: linear-gradient(to right, #f8f9fa 0%, #c2b262 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -89,7 +89,7 @@ section {
   margin: 0 auto 20px;
   width: 5%;
   height: 3px;
-  background-color: rgb(194, 178, 98);
+  background-color: #c2b262;
 }
 
 nav {
@@ -153,7 +153,7 @@ nav .ig-nav-link {
   -webkit-text-fill-color: transparent;
 }
 nav .active {
-  color: rgb(194, 178, 98) !important;
+  color: #c2b262 !important;
 }
 nav .active:hover {
   color: #1a1d20 !important;
@@ -184,8 +184,8 @@ nav .active:hover {
 .header-box .header-hero-text {
   text-align: center;
   text-wrap: balance;
-  background: rgb(194, 178, 98);
-  background: linear-gradient(to right, #f8f9fa 0%, rgb(194, 178, 98) 100%);
+  background: #c2b262;
+  background: linear-gradient(to right, #f8f9fa 0%, #c2b262 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: capitalize;
@@ -214,11 +214,11 @@ nav .active:hover {
   border: 1px solid #f8f9fa;
 }
 .header-box .header-button-box .header-button-primary {
-  background-color: rgb(194, 178, 98);
-  border: 1px solid rgb(194, 178, 98);
+  background-color: #c2b262;
+  border: 1px solid #c2b262;
 }
 .header-box .header-button-box .header-button-secondary {
-  border: 1px solid rgb(194, 178, 98);
+  border: 1px solid #c2b262;
 }
 
 .header-hero-img-shadow {
@@ -234,7 +234,7 @@ nav .active:hover {
 .aboutme-box .aboutme-border {
   border-radius: 0.7rem;
   overflow: hidden;
-  border: 1px solid rgb(194, 178, 98);
+  border: 1px solid #c2b262;
 }
 .aboutme-box .aboutme-item {
   display: flex;
@@ -296,8 +296,8 @@ nav .active:hover {
   width: 60px;
   height: 60px;
   font-size: 26px;
-  background: rgb(194, 178, 98);
-  background: linear-gradient(to right, #f8f9fa 0%, rgb(194, 178, 98) 100%);
+  background: #c2b262;
+  background: linear-gradient(to right, #f8f9fa 0%, #c2b262 100%);
   color: #1a1d20;
   border-radius: 50%;
   box-shadow: 0px 0 12px 6px rgba(26, 29, 32, 0.2);
@@ -305,13 +305,13 @@ nav .active:hover {
 
 .portfolio-box .pswp-gallery a img {
   border-radius: 0.7rem;
-  border: 1px solid rgb(194, 178, 98);
+  border: 1px solid #c2b262;
 }
 
 .faq-box .accordion {
   border-radius: 0.7rem;
   overflow: hidden;
-  border: 1px solid rgb(194, 178, 98);
+  border: 1px solid #c2b262;
 }
 .faq-box .accordion .accordion-button {
   color: #f8f9fa;
@@ -338,7 +338,7 @@ nav .active:hover {
 .contact-box #contact-form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid rgb(194, 178, 98);
+  border: 1px solid #c2b262;
   border-radius: 0.7rem;
   background: #141719;
   -webkit-backdrop-filter: blur(10px);
@@ -368,14 +368,14 @@ nav .active:hover {
   text-align: center;
   border-radius: 0.7rem;
   overflow: hidden;
-  border: 1px solid rgb(194, 178, 98);
+  border: 1px solid #c2b262;
   transition: border 0.3s, background-color 0.3s, color 0.3s, font-weight 0.3s;
   color: #7c7d7d;
   font-size: 20px;
 }
 .contact-box #contact-form .radio input[type=radio]:checked + label {
-  border: 1px solid rgb(194, 178, 98);
-  background-color: rgb(194, 178, 98);
+  border: 1px solid #c2b262;
+  background-color: #c2b262;
   color: #f8f9fa;
   font-weight: bold;
 }
@@ -406,8 +406,8 @@ nav .active:hover {
   margin: 40px auto 0;
   padding: 25px 50px;
   color: #f8f9fa;
-  background-color: rgb(194, 178, 98);
-  border: 1px solid rgb(194, 178, 98);
+  background-color: #c2b262;
+  border: 1px solid #c2b262;
   border-radius: 50rem;
   font-weight: bold;
   text-transform: uppercase;
