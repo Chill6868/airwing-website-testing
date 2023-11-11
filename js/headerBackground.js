@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	var header = $("header");
+	var header = document.querySelector("header");
 
 	var backgrounds = new Array(
 		"url(../img/header/hero-drone1.jpg)",
