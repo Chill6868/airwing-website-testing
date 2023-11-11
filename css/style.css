@@ -371,13 +371,13 @@ nav .active:hover {
   border: 1px solid #c2b262;
   transition: border 0.3s, background-color 0.3s, color 0.3s, font-weight 0.3s;
   color: #7c7d7d;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 5px 10px;
 }
 .contact-box #contact-form .radio input[type=radio]:checked + label {
   border: 1px solid #c2b262;
   background-color: #c2b262;
   color: #f8f9fa;
-  font-weight: bold;
 }
 .contact-box #contact-form input[type=radio] {
   -webkit-appearance: none;

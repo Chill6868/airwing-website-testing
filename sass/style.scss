@@ -473,14 +473,15 @@ nav {
 			transition: border 0.3s, background-color 0.3s, color 0.3s,
 				font-weight 0.3s;
 			color: #7c7d7d;
-			font-size: 20px;
+			font-size: 18px;
+			padding: 5px 10px;
 		}
 
 		input[type="radio"]:checked + label {
 			border: 1px solid $main-color;
 			background-color: $main-color;
 			color: $light-color;
-			font-weight: bold;
+			// font-weight: bold;
 		}
 	}
 

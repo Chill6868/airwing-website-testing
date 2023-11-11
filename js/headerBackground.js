@@ -1,9 +1,9 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
 	var header = $("header");
 
 	var backgrounds = new Array(
-		"url(../img/header/hero-drone2.jpg)",
 		"url(../img/header/hero-drone1.jpg)",
+		"url(../img/header/hero-drone2.jpg)",
 		"url(../img/header/hero-drone3.jpg)"
 	);
 
