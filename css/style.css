@@ -22,6 +22,8 @@ body {
   color: #f8f9fa;
   background-color: #1a1d20;
   background-image: url("../img/body/bg-mesh.png");
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   font-family: "Inter", sans-serif;
   height: 100%;
