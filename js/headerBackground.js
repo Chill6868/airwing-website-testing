@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	const header = document.querySelector("header");
 
 	const backgrounds = new Array(
-		"url('../img/header/hero-drone1.jpg')",
-		"url('../img/header/hero-drone2.jpg')",
-		"url('../img/header/hero-drone3.jpg')"
+		"url('./img/header/hero-drone1.jpg')",
+		"url('./img/header/hero-drone2.jpg')",
+		"url('./img/header/hero-drone3.jpg')"
 	);
 
 	let current = 0;
