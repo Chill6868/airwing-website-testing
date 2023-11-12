@@ -222,6 +222,36 @@
             </div>
         </section>
 
+        <section id="bundles" class="bundles-box">
+            <h2 class="section-title">pakiety</h2>
+            <h3 class="section-text">zapoznaj sie z dostępnymi pakietami</h3>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="bundles-box-item-container col-md-6 col-lg-3">
+                        <div class="bundles-box-item">
+                            gowno
+                        </div>
+                    </div>
+                    <div class="bundles-box-item-container col-md-6 col-lg-3">
+                        <div class="bundles-box-item">
+                            gowno
+                        </div>
+                    </div>
+                    <div class="bundles-box-item-container col-md-6 col-lg-3">
+                        <div class="bundles-box-item">
+                            gowno
+                        </div>
+                    </div>
+                    <div class="bundles-box-item-container col-md-6 col-lg-3">
+                        <div class="bundles-box-item">
+                            gowno
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="contact-box">
             <form id="contact-form" action="https://api.staticforms.xyz/submit" method="post">
                 <input type="hidden" name="accessKey" value="df29e796-a3ea-4f8c-b875-e93273da7c6c">
@@ -248,17 +278,35 @@
                             </fieldset>
                         </div>
                         <div class="contact-box-item">
-                            <fieldset class="radio">
-                                <input type="radio" id="Bundle1" name="$Bundle" value="Bundle1" checked />
-                                <label for="Bundle1">Pakiet podstawowy</label>
-                                <input type="radio" id="Bundle2" name="$Bundle" value="Bundle2" />
-                                <label for="Bundle2">Pakiet rozszerzony</label>
-                            </fieldset>
-                        </div>
-                        <div class="contact-box-item">
                             <fieldset>
                                 <textarea name="$Message" placeholder="Scrivi qui tutti i dettagli..." tabindex="4"
                                     required></textarea>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <h2 class="section-title">wybierz pakiet</h2>
+                            <h3 class="section-text">wybierz pakiet, jaki cię interesuje
+                            </h3>
+                            <div class="underline"></div>
+                            <fieldset class="radio">
+                                <div class="row">
+                                    <div class="contact-box-item col-12 col-md-6 col-lg-3">
+                                        <input type="radio" id="Bundle1" name="$Bundle" value="Bundle1" required />
+                                        <label for="Bundle1">Pakiet podstawowy</label>
+                                    </div>
+                                    <div class="contact-box-item col-12 col-md-6 col-lg-3">
+                                        <input type="radio" id="Bundle2" name="$Bundle" value="Bundle2" required />
+                                        <label for="Bundle2">Pakiet rozszerzony</label>
+                                    </div>
+                                    <div class="contact-box-item col-12 col-md-6 col-lg-3">
+                                        <input type="radio" id="Bundle1" name="$Bundle" value="Bundle1" required />
+                                        <label for="Bundle1">Pakiet podstawowy</label>
+                                    </div>
+                                    <div class="contact-box-item col-12 col-md-6 col-lg-3">
+                                        <input type="radio" id="Bundle2" name="$Bundle" value="Bundle2" required />
+                                        <label for="Bundle2">Pakiet rozszerzony</label>
+                                    </div>
+                                </div>
                             </fieldset>
                         </div>
                         <div class="contact-box-item">

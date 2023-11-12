@@ -417,6 +417,21 @@ nav {
 	}
 }
 
+// bundles
+.bundles-box {
+	border: 1px solid red;
+	.row {
+		border: 1px solid red;
+	}
+
+	.bundles-box-item-container {
+		border: 1px solid blue;
+		.bundles-box-item {
+			border: 1px solid green;
+		}
+	}
+}
+
 // CONTACT
 .contact-box {
 	.contact-box-item {
@@ -434,9 +449,8 @@ nav {
 		border: 1px solid $main-color;
 		border-radius: $rounded-radius;
 		background: #141719;
-		backdrop-filter: $blur;
-		color: $light-color;
 		transition: border $transition-time-short;
+		color: $light-color;
 		// background: transparent;
 		// margin: 0 0 5px;
 		// border: 3px solid green;
@@ -448,20 +462,20 @@ nav {
 	}
 
 	#contact-form .radio {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		position: relative;
 		padding: 0;
 		border: none;
 		border-radius: 0;
 		background: none;
+		box-shadow: none;
+
 		label {
 			background: #141719;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			// margin: 0 10px;
-			width: calc(50% - 10px);
+			// width: calc(50% - 10px);
 			height: 75px;
 			text-align: center;
 			border-radius: $rounded-radius;
@@ -473,6 +487,7 @@ nav {
 			font-size: 18px;
 			padding: 5px 10px;
 			box-shadow: $box-shadow;
+			cursor: pointer;
 		}
 
 		input[type="radio"]:checked + label {
@@ -484,8 +499,12 @@ nav {
 	}
 
 	#contact-form input[type="radio"] {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		// transition: -50%;
 		appearance: none;
-		display: none;
+		// display: none;
 	}
 
 	#contact-form input[type="text"]:hover,
@@ -630,7 +649,10 @@ nav {
 // MEDIA QUERIES
 
 @media (min-width: 768px) {
-	//PORTFOLIO
+	//CONTACT FORM
+	// #contact-form .radio label {
+	// 	width: 100%;
+	// }
 }
 
 @media (min-width: 992px) {
@@ -638,7 +660,7 @@ nav {
 	html {
 		scroll-padding-top: 96px;
 	}
-	// HEADER
+	//HEADER
 
 	.header-box {
 		position: absolute;

@@ -327,6 +327,19 @@ nav .active:hover {
   text-transform: capitalize;
 }
 
+.bundles-box {
+  border: 1px solid red;
+}
+.bundles-box .row {
+  border: 1px solid red;
+}
+.bundles-box .bundles-box-item-container {
+  border: 1px solid blue;
+}
+.bundles-box .bundles-box-item-container .bundles-box-item {
+  border: 1px solid green;
+}
+
 .contact-box .contact-box-item {
   padding: 5px 10px;
 }
@@ -340,30 +353,26 @@ nav .active:hover {
   border: 1px solid #c2b262;
   border-radius: 0.7rem;
   background: #141719;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  color: #f8f9fa;
   transition: border 0.3s;
+  color: #f8f9fa;
   box-shadow: 0px 0 12px 6px rgba(26, 29, 32, 0.2);
 }
 .contact-box #contact-form .radio-text {
   margin: 0;
 }
 .contact-box #contact-form .radio {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
   padding: 0;
   border: none;
   border-radius: 0;
   background: none;
+  box-shadow: none;
 }
 .contact-box #contact-form .radio label {
   background: #141719;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(50% - 10px);
   height: 75px;
   text-align: center;
   border-radius: 0.7rem;
@@ -374,6 +383,7 @@ nav .active:hover {
   font-size: 18px;
   padding: 5px 10px;
   box-shadow: 0px 0 12px 6px rgba(26, 29, 32, 0.2);
+  cursor: pointer;
 }
 .contact-box #contact-form .radio input[type=radio]:checked + label {
   border: 1px solid #c2b262;
@@ -381,10 +391,12 @@ nav .active:hover {
   color: #f8f9fa;
 }
 .contact-box #contact-form input[type=radio] {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  display: none;
 }
 .contact-box #contact-form input[type=text]:hover,
 .contact-box #contact-form input[type=email]:hover,
